@@ -27,12 +27,12 @@ width: 500px;
   width: 500px;
   margin: 0 auto 0;
 }
-.task {
+.add-item__task {
   width: 56%;
   display: inline-block;
   flex-grow: 1;
 }
-.task-row-wrapper {
+.add-item__task-wrapper {
   display: flex;
 }
 ul {
@@ -144,11 +144,11 @@ ul li input[type=text] {
   display: none;
 }
 
-ul li.editMode input[type=text] {
+ul li.edit-mode input[type=text] {
   display:inline-block;
   width: 224px;
 }
 
-ul li.editMode label {
+ul li.edit-mode label {
   display: none;
 }
